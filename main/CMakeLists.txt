@@ -2,7 +2,9 @@ idf_component_register(
     SRCS 
         "main.c"
         "../kernel/kernel.c"
+        "../drivers/loco_uart.c"
     INCLUDE_DIRS 
         "."
         "../kernel"
+        "../drivers"
 )

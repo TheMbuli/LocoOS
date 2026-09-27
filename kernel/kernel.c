@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include "kernel.h"
+#include "loco_uart.h"
 
 void loco_kernel_init(void)
 {
-    printf("\n");
-    printf("--------------------------\n");
-    printf("       WELCOME LocoOS !\n");
-    printf("--------------------------\n");
-    printf("[KERNEL] Starting LocoOS kernel .....\n");
-    printf("[KERNEL] LocoOs kernel is live ! \n");
+    loco_uart_write("HELLO\n");
+
 }
