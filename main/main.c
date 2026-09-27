@@ -1,5 +1,15 @@
-#include "kernel.h"
 
+/*
+=================================
+=========== LOCO OS =============
+=================================
+
+Author: MBULINYOLO EDDY
+
+Name: Old pirate 
+*/
+
+#include "kernel.h"
 
 void app_main(void)
 {
